@@ -1,2 +1,2 @@
-# js-learn
-code repo for js
+# js-chaiaurcode
+code repo for js chai aur code
