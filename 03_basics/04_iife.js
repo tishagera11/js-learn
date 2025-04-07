@@ -10,3 +10,8 @@
 ( (name) => {               //unmanem //arrow function iife
     console.log(`DB CONNECTED TWO ${name}`)
 })('tisha')
+
+
+/*
+JAVA SCRIPT EXECUTION CONTEXT
+
