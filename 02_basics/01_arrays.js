@@ -1,4 +1,4 @@
-const myArr = [0,1,2,3,4,5]
+  const myArr = [0,1,2,3,4,5]
 const myHeroes = ["shaktiman","naagraj"]
 
 const myArr2 = new Array(1,2,3,4)
@@ -6,9 +6,9 @@ console.log(myArr[2])
 
 //array methods
 
-myArr.push(6)
-myArr.push(7)
-myArr.pop()
+myArr.push(6)       //adds in the array
+myArr.push(7)   
+myArr.pop()         //deltes from the array
 
 myArr.unshift(9)        //add the mentioned number in the start
 myArr.shift()  
@@ -16,10 +16,10 @@ myArr.shift()
 console.log(myArr.includes(9))
 console.log(myArr.indexOf(9))
 
-const newArr = myArr.join()
+const newArr = myArr.join()     //join the array & converts array into string
 
 console.log(myArr)
-console.log(newArr)
+console.log(newArr)     //type is string
 
 //slice, splice
 

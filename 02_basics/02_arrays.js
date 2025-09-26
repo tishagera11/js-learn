@@ -3,7 +3,7 @@ const dc_heros = ["superman","flash","batman"]
 
 //marvel_heros.push(dc_heros)     //push pushes one array into another
 
-//console.log(marvel_heros)
+//console.log(marvel_heros)       //array inside an array; dc heroes is considered as one element only
 
 const allHeros = marvel_heros.concat(dc_heros)      //concat gives a new array with both the arrys merged
 console.log(allHeros)
@@ -16,6 +16,7 @@ console.log(allNewHeros)
 const anotherArray = [1,2,3,[4,5,6],7,[6,7,[4,5]]]
 //if array has more arrays inside it we use flat to make it a single array
 const real_another_array = anotherArray.flat(Infinity)      //flat makes the array containing subarrays into a single flat array
+//infinity is the depth till where we the array to be merged
 console.log(real_another_array)
 
 //data scrapping
@@ -25,6 +26,7 @@ console.log(Array.isArray("tisha"))
 console.log(Array.from("tisha"))
 // Array.from() offers a way to convert these objects into actual arrays.
 console.log(Array.from({name:"tisha"}))     //interesting we need to specify whose array is to be made whther values or keys
+//because it is not mentioned whose array is to be made so it gives an empty array
 
 let score1 = 100
 let score2 = 200

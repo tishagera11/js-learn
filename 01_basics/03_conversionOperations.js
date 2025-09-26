@@ -33,14 +33,14 @@ console.log(typeof stringNumber);
 
 let value = 3
 let negValue = -value
-console.log(negValue);
+console.log(negValue);      //prints -3
 
 /*console.log(2 + 2);
 console.log(2 - 2);
 console.log(2 * 2);             //basic operations
-console.log(2 ** 2);
+console.log(2 ** 2);    // power of 2
 console.log(2 / 2);
-console.log(2 % 2);*/
+console.log(2 % 2);     //remainder
 
 let str1 = "hello"
 let str2 = "TIsha"
