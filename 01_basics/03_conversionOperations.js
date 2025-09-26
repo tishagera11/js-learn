@@ -70,6 +70,3 @@ console.log(gameCounter);
 
 
 
-
-
-
