@@ -25,6 +25,7 @@ function logInUserMessage(username){
 
 
 function calculateCartPrice(...num1){           //...num1 is acting as rest operator
+    //rest operator acts like passing multiple vaue as one value i.e array
     return num1
 }
 
@@ -43,6 +44,7 @@ handledObject({
     username:"sam",
     price:"399"
 })
+//we can directly pass the object inside a function
 
 const myNewArray = [200, 400, 100, 600]
 
@@ -50,3 +52,5 @@ function returnSecondValue(getArray){
     return getArray[1]
 }
 console.log(returnSecondValue(myNewArray))
+//console.log(returnSecondValue([200,400, 500, 1000]))
+//we are directly passing the aaray in the function

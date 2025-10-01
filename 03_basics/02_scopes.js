@@ -1,4 +1,4 @@
-{}      //curly braces with functions, if else is called scope
+{}      //curly braces with functions, if else; is called scope
 
 
 
@@ -7,6 +7,7 @@ if(true){
     const b = 20
     var c = 30
 }
+//var gets accessed outside the scope also thats why its not recommended to use var
 
 
 function one(){
@@ -16,7 +17,7 @@ function one(){
         const website = "youtube"
         console.log(username)
     }
-    //console.log(website)
+    //console.log(website)              //error because we are already out of the scope to print website
 
     two()
 }
@@ -34,7 +35,7 @@ if(true){
 //console.log(username)
 
 //+++++++++ interesting ++++++++++
-addone(5)
+addone(5)       //we can call function before declaring also
 function addone(num){
     return num + 1
 }
