@@ -8,7 +8,7 @@ class User{
         console.log(`username: ${this.username}`)
     }
 
-    static createId(){
+    static createId(){      //Belongs to the class, not objects
         return `123`
     }
 }
@@ -18,7 +18,7 @@ const hitesh =new User("hitesh")
 
 class Teacher extends User{
     constructor(username, email){
-        super(username)
+        super(username)     //it lets a child class call things from its parent class.
         this.email = email
     }
 }

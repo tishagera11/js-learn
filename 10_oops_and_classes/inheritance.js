@@ -9,7 +9,7 @@ class User{
 
 class Teacher extends User{
     constructor(username, email, password){
-        super(username)
+        super(username)     //it lets a child class call things from its parent class.
         this.email = email
         this.password = password
     }
